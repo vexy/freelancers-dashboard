@@ -1,5 +1,6 @@
 language: swift
-platform: macOS
+osx_image: xcode11.2
+platform: macOS #maybe not needed...
 
 script:
   - set -o pipefail
