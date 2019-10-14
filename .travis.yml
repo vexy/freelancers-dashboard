@@ -2,6 +2,9 @@ language: swift
 osx_image: xcode11.2
 platform: macOS #maybe not needed...
 
+before_install:
+  - carthage update
+ 
 script:
   - set -o pipefail
   - xcodebuild clean build -scheme Freelancer
