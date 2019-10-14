@@ -39,7 +39,6 @@ class TimerController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         flTimer.delegate = self
     }
     
