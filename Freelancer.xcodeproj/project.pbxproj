@@ -99,6 +99,7 @@
 		93908AC022198AE900CC4E11 /* EarningsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningsViewController.swift; sourceTree = "<group>"; };
 		93E71E19220E1E2E00361944 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/Mac/SwiftDate.framework; sourceTree = "<group>"; };
 		93F38B91220A28F300F099A2 /* LaunchAtLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LaunchAtLogin.framework; path = Carthage/Build/Mac/LaunchAtLogin.framework; sourceTree = "<group>"; };
+		C50F58EF2354E410002A693A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		9332042B2207C1DF0098632C = {
 			isa = PBXGroup;
 			children = (
+				C50F58EF2354E410002A693A /* README.md */,
 				9332044C2207C22D0098632C /* build_number.sh */,
 				933204362207C1DF0098632C /* Freelancer */,
 				933204352207C1DF0098632C /* Products */,
