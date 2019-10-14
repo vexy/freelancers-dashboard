@@ -1,0 +1,8 @@
+language: swift
+
+before_install:
+  - carthage update #update any Carthage dependencies
+
+script:
+  - set -o pipefail
+  - xcodebuild clean build -scheme Freelancer
