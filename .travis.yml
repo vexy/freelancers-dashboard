@@ -1,7 +1,5 @@
 language: swift
-
-#before_install:
-#  - carthage update #update any Carthage dependencies
+platform: macOS
 
 script:
   - set -o pipefail
